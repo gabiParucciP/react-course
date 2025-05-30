@@ -1,6 +1,6 @@
 import "./App.css";
 import { Component } from "react";
-import Cron from "./components/Cron";
+import RoutesApp from "./routes";
 
 class App extends Component {
   // constructor(props) {
@@ -26,16 +26,20 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <Cron />
-        {/* <LuckCookie /> */}
-        {/* <Form /> */}
-        {/* <SimpleForm /> */}
-        {/* <List /> */}
-        {/* <Conditional /> */}
-        {/* <Member name="Gabis" /> */}
-        {/* <span>{this.state.hora}</span> */}
-      </div>
+      <>
+        <RoutesApp />
+      </>
+      // <div>
+      //   <h1>teste</h1>
+      //   {/* <Cron /> */}
+      //   {/* <LuckCookie /> */}
+      //   {/* <Form /> */}
+      //   {/* <SimpleForm /> */}
+      //   {/* <List /> */}
+      //   {/* <Conditional /> */}
+      //   {/* <Member name="Gabis" /> */}
+      //   {/* <span>{this.state.hora}</span> */}
+      // </div>
     );
   }
 }
